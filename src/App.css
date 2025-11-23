@@ -1,0 +1,54 @@
+/* Wrapper do componente UserRepos */
+.repos-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centraliza horizontalmente */
+  width: 90%;
+  margin-top: 30px;
+}
+
+/* Títulos centralizados */
+.group-title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Container da ordenação */
+.ordenacao-container {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Tabela estilizada e centralizada */
+.repos-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.repos-table th, .repos-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.repos-table th {
+  background-color: #f4f4f4;
+}
+
+.repos-table a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.repos-table a:hover {
+  text-decoration: underline;
+}
+
+/* Mensagem quando não há repositórios */
+.no-repos {
+  text-align: center;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+
